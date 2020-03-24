@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sexe"/>
+    <RadioGroup
+        android:id="@+id/idSexe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/idSexeHomme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Homme"/>
+        <RadioButton
+            android:id="@+id/idSexeFemme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Femme"/>
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Langage de programmation :"/>
+    <CheckBox
+        android:id="@+id/idChkJava"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Java"/>
+    <CheckBox
+        android:id="@+id/idChkC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C/C++"/>
+    <CheckBox
+        android:id="@+id/idChkJavascript"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JavaScript"/>
+    <Button
+        android:id="@+id/idAfficher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Afficher"/>
+    <TextView
+        android:id="@+id/idResultat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="2"/>
+</LinearLayout>
